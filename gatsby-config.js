@@ -3,6 +3,14 @@ module.exports = {
     title: 'My Brew',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true, // defaults to false
+        jsxPragma: `jsx`, // defaults to "React"
+        allExtensions: true, // defaults to false
+      },
+    },
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-google-analytics',

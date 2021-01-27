@@ -29,11 +29,17 @@
     "gatsby-plugin-react-helmet": "^3.9.0",
     "gatsby-plugin-sharp": "^2.13.1",
     "gatsby-plugin-sitemap": "^2.11.0",
+    "gatsby-plugin-typescript": "^2.11.0",
     "gatsby-source-filesystem": "^2.10.0",
     "gatsby-transformer-remark": "^2.15.0",
     "gatsby-transformer-sharp": "^2.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
   }
 }
