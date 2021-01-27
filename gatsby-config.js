@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'My Brew',
+    title: 'TypeScript R17 Template',
   },
   plugins: [
     {
